@@ -1,4 +1,4 @@
-const getJSONData = (key, value) => { localStorage.setItem(key, value) };
+const getJSONData = (key, value) => { localStorage.setItem(key, value) }
 let productsLS = localStorage.getItem("listaProductos")
 let productsData = JSON.parse(productsLS)
 let currentProductsArray = []
@@ -41,8 +41,6 @@ function showProductsList() {
         document.getElementById("prod-list-container").innerHTML = htmlContentToAppend;
     }
 }
-
-
 
 document.getElementById("sortAsc").addEventListener("click", function () {
     productsData.sort((a, b) => {
@@ -104,8 +102,6 @@ document.getElementById('clearRangeFilter').addEventListener('click', function (
     showProductsList();
 });
   })
-
-
 
 // Notificaciones Toastify JS
 const sortButtons = document.getElementsByClassName('btn-sort');
