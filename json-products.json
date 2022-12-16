@@ -1,0 +1,44 @@
+[
+    {
+       "id": 1,
+       "productName": "El Castigador - Máquina de guerra",
+       "description": "“Frank Castle: Máquina de Guerra”. En su guerra, El Castigador siempre ha estado limitado por el hecho de ser un único hombre. Pero ahora Frank tiene a su disposición las herramientas para hacer que su misión tenga carácter global. ¿Cómo va a negarse?",
+       "cost": 350,
+       "imgSrc": "resources/prod1.jpg"
+    },
+    {
+       "id": 2,
+       "productName": "Spiderman vs Morbius",
+       "description": "Ante el salto a la gran pantalla de Morbius, te ofrecemos un volumen que recoge algunas de sus aventuras más destacadas, como antagonista de Spiderman. Desde su debut, en la legendaria saga de los brazos extra, hasta sus más recientes historias, pasando por la particular visión que de Michael Morbius diera Todd McFarlane.",
+       "cost": 350,
+       "imgSrc": "resources/prod2.jpg"
+    },
+    {
+        "id": 3,
+       "productName": "Thor - El carnicero de dioses",
+       "description": "A lo largo de los siglos, los dioses han estado desapareciendo, lo que condena al caos a sus adoradores. Ahora, Thor sigue el rastro de sangre que amenaza con consumir su pasado, presente y futuro.",
+       "cost": 600,
+       "imgSrc": "resources/prod3.jpg"
+    },
+    {
+        "id": 4,
+       "productName": "Caballero Luna - Cuenta atrás hacia la oscuridad",
+       "description": "Mercenario, cazador de hombres lobo, millonario, taxista… ¿fantasma? Descubre al Caballero Luna desde su debut y hasta meterse de lleno en la más recordada de las épocas que viviera jamás, en que se convirtió en una referencia indiscutible del cómic estadounidense.",
+       "cost": 600,
+       "imgSrc": "resources/prod4.jpg"
+    },
+    {
+        "id": 5,
+       "productName": "Ms. Marvel - Fuera de lo normal",
+       "description": "¡La edición completa de la obra maestra de Busiek y Ross! Un emocionante recorrido por los momentos que sirvieron para forjar el Universo Marvel bajo la visión única del fotógrafo Phil Sheldon. Desde los orígenes de los superhéroes a la trágica muerte de Gwen Stacy, de la llegada de Galactus a la Guerra Kree-Skrull, de la irrupción de los mutantes a la boda de Reed Richards y Sue Storm… ¡Los Prodigios están aquí!",
+       "cost": 350,
+       "imgSrc": "resources/prod5.jpg"
+    },
+    {
+        "id": 6,
+       "productName": "Daredevil - El hombre sin miedo",
+       "description": "¡El Hombre Sin Miedo consigue su primer Omnigold! Descubre las aventuras de Daredevil desde el principio, en un cuidado volumen que recoge los dos primeros años de su existencia, con la presentación de algunos de sus peores villanos.",
+       "cost": 600,
+       "imgSrc": "resources/prod6.jpg"
+    }
+ ]
