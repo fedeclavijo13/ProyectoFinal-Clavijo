@@ -142,7 +142,10 @@ for (let i = 0; i < sortButtons.length; i++) {
 document
 	.getElementById("rangeFilterCost")
 	.addEventListener("click", function () {
-		if (minCost == undefined || maxCost == undefined) {
+		if (
+			document.getElementById("rangeFilterCostMin").value == "" ||
+			document.getElementById("rangeFilterCostMax").value == ""
+		) {
 			Toastify({
 				text: "Debes ingresar los valores en los campos para avanzar",
 				duration: 1500,
@@ -153,7 +156,10 @@ document
 		} else {
 			Toastify({
 				text:
-					"Productos filtrados entre precios $" + minCost + " y $" + maxCost,
+					"Productos filtrados entre precios $" +
+					document.getElementById("rangeFilterCostMin").value +
+					" y $" +
+					document.getElementById("rangeFilterCostMax").value,
 				duration: 1500,
 				grativy: "top",
 				positionRight: true,
